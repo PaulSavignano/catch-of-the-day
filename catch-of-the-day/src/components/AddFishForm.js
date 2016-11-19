@@ -24,7 +24,7 @@ class AddFishForm extends Component {
         </select>
         <textarea ref={ (input) => this.desc = input } type="text" placeholder="Fish Desc"></textarea>
         <input ref={ (input) => this.image = input } type="text" placeholder="Fish Image"/>
-        <button type="submit">+ Add Items</button>
+        <button type="submit">+ Add Item</button>
       </form>
     )
   }
